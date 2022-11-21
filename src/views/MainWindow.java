@@ -10,6 +10,8 @@
  * Copyright (c) 2021 Sallai Andras
  * 
  * GNU GPL v2
+ * Last Modified: 2022-11-21
+ * Modified By: Tóth Júlia
  */
 
 package views;
@@ -138,12 +140,8 @@ public class MainWindow extends JFrame {
         
         
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        // this.setSize(300, 250);
         this.pack();
-        /**
-         * A pack() után kell szerepeljen, mert az ablak mérete
-         * csak az után van meg.
-         */
+
         statusBar = new StatusBar(this.getWidth());
         this.add(statusBar);
 

@@ -10,6 +10,8 @@
  * Copyright (c) 2021 Sallai Andras
  * 
  * GNU GPL v2
+ * Last Modified: 2022-11-21
+ * Modified By: Tóth Júlia
  */
 
 package controllers;
@@ -18,7 +20,6 @@ import views.MainWindow;
 
 public class WordsController {
     MainWindow mainWindow;
-    //Az osztály konstruktora
     public WordsController(MainWindow mainWindow) {
         this.mainWindow = mainWindow;
         this.mainWindow.exitButton.addActionListener(event ->{
@@ -27,8 +28,3 @@ public class WordsController {
     }
     
 }
-
-/**
- * 2021-09-24 Kezdés
- * 2021-09-26 Szemetelés
- */

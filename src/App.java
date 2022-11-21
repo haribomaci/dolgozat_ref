@@ -10,6 +10,8 @@
  * Copyright (c) 2021 Sallai Andras
  * 
  * GNU GPL v2
+ * Last Modified: 2022-11-21
+ * Modified By: Tóth Júlia
  */
 
 import controllers.CollectorController;
